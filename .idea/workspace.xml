@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="59b6fa12-768d-43c5-ae51-2c0415f6e9c1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/lib/screens/login_success/components/body.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/login_success/login_success_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/login_success/login_success_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/otp/components/body.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/otp/components/otp_form.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/otp/otp_form.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/otp/otp_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/otp/otp_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/profile/components/body.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/profile/components/profile_menu.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/profile/profile_menu.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/profile/components/profile_pic.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/profile/profile_pic.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/profile/profile_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/profile/profile_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/sign_in/components/body.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/sign_in/components/sign_form.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/sign_in/sign_form.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/sign_in/sign_in_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/sign_in/sign_in_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/sign_up/components/body.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/sign_up/components/sign_up_form.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/sign_up/sign_up_form.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/sign_up/sign_up_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/sign_up/sign_up_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/splash/components/body.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/splash/components/splash_content.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/splash/splash_content.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/splash/splash_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/splash/splash_screen.dart" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Nexus_S_API_28]" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1oZAlpbCSwRwWSU0emlAOj1OzEa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="flutter.settings" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/screens/splash" />
+      <recent name="$PROJECT_DIR$/lib/screens/sign_up" />
+      <recent name="$PROJECT_DIR$/lib/screens/sign_in" />
+      <recent name="$PROJECT_DIR$/lib/screens/profile" />
+      <recent name="$PROJECT_DIR$/lib/screens/otp" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="59b6fa12-768d-43c5-ae51-2c0415f6e9c1" name="Default Changelist" comment="" />
+      <created>1613483893380</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613483893380</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1504" y="111" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613535401482">
+      <screen x="1366" y="70" width="1360" height="768" />
+    </state>
+    <state x="1504" y="111" key="#com.intellij.execution.impl.EditConfigurationsDialog/35.27.1331.741/1366.70.1360.768@1366.70.1360.768" timestamp="1613535401482" />
+    <state x="1779" y="202" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1613620335703">
+      <screen x="1366" y="70" width="1360" height="768" />
+    </state>
+    <state x="1779" y="202" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/35.27.1331.741/1366.70.1360.768@1366.70.1360.768" timestamp="1613620335703" />
+    <state x="1466" y="168" width="1160" height="570" key="AVDManager" timestamp="1613565033422">
+      <screen x="1366" y="70" width="1360" height="768" />
+    </state>
+    <state x="1466" y="168" width="1160" height="570" key="AVDManager/35.27.1331.741/1366.70.1360.768@1366.70.1360.768" timestamp="1613565033422" />
+    <state width="1314" height="151" key="GridCell.Tab.0.bottom" timestamp="1613621329117">
+      <screen x="1366" y="70" width="1360" height="768" />
+    </state>
+    <state width="1314" height="151" key="GridCell.Tab.0.bottom/35.27.1331.741/1366.70.1360.768@1366.70.1360.768" timestamp="1613621329117" />
+    <state width="1314" height="151" key="GridCell.Tab.0.center" timestamp="1613621329117">
+      <screen x="1366" y="70" width="1360" height="768" />
+    </state>
+    <state width="1314" height="151" key="GridCell.Tab.0.center/35.27.1331.741/1366.70.1360.768@1366.70.1360.768" timestamp="1613621329117" />
+    <state width="1314" height="151" key="GridCell.Tab.0.left" timestamp="1613621329117">
+      <screen x="1366" y="70" width="1360" height="768" />
+    </state>
+    <state width="1314" height="151" key="GridCell.Tab.0.left/35.27.1331.741/1366.70.1360.768@1366.70.1360.768" timestamp="1613621329117" />
+    <state width="1314" height="151" key="GridCell.Tab.0.right" timestamp="1613621329117">
+      <screen x="1366" y="70" width="1360" height="768" />
+    </state>
+    <state width="1314" height="151" key="GridCell.Tab.0.right/35.27.1331.741/1366.70.1360.768@1366.70.1360.768" timestamp="1613621329117" />
+    <state x="1535" y="88" key="SettingsEditor" timestamp="1613484070731">
+      <screen x="1366" y="70" width="1360" height="768" />
+    </state>
+    <state x="1535" y="88" key="SettingsEditor/35.27.1331.741/1366.70.1360.768@1366.70.1360.768" timestamp="1613484070731" />
+    <state x="2105" y="97" width="621" height="741" key="find.popup" timestamp="1613560082966">
+      <screen x="1366" y="70" width="1360" height="768" />
+    </state>
+    <state x="2105" y="97" width="621" height="741" key="find.popup/35.27.1331.741/1366.70.1360.768@1366.70.1360.768" timestamp="1613560082966" />
+  </component>
+</project>
