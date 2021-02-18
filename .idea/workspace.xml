@@ -20,24 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59b6fa12-768d-43c5-ae51-2c0415f6e9c1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/lib/screens/login_success/components/body.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/login_success/login_success_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/login_success/login_success_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/otp/components/body.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/otp/components/otp_form.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/otp/otp_form.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/otp/otp_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/otp/otp_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/profile/components/body.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/profile/components/profile_menu.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/profile/profile_menu.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/profile/components/profile_pic.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/profile/profile_pic.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/profile/profile_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/profile/profile_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/sign_in/components/body.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/sign_in/components/sign_form.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/sign_in/sign_form.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/sign_in/sign_in_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/sign_in/sign_in_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/sign_up/components/body.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/sign_up/components/sign_up_form.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/sign_up/sign_up_form.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/sign_up/sign_up_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/sign_up/sign_up_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/splash/components/body.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/splash/components/splash_content.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/splash/splash_content.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/splash/splash_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/splash/splash_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/E-commerce-Complete-Flutter-UI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/E-commerce-Complete-Flutter-UI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/complete_profile/complete_profile_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/complete_profile/complete_profile_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/complete_profile/components/body.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/complete_profile/components/complete_profile_form.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/complete_profile/complete_profile_form.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/forgot_password/components/body.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/forgot_password/forgot_password_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/forgot_password/forgot_password_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/sign_up/sign_up_form.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/sign_up/sign_up_form.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +57,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
@@ -72,11 +69,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/screens/complete_profile" />
       <recent name="$PROJECT_DIR$/lib/screens/splash" />
       <recent name="$PROJECT_DIR$/lib/screens/sign_up" />
       <recent name="$PROJECT_DIR$/lib/screens/sign_in" />
       <recent name="$PROJECT_DIR$/lib/screens/profile" />
-      <recent name="$PROJECT_DIR$/lib/screens/otp" />
     </key>
   </component>
   <component name="RunManager">
@@ -108,6 +105,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1504" y="111" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613535401482">
@@ -118,26 +116,30 @@
       <screen x="1366" y="70" width="1360" height="768" />
     </state>
     <state x="1779" y="202" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/35.27.1331.741/1366.70.1360.768@1366.70.1360.768" timestamp="1613620335703" />
-    <state x="1466" y="168" width="1160" height="570" key="AVDManager" timestamp="1613565033422">
+    <state x="1466" y="168" width="1160" height="570" key="AVDManager" timestamp="1613623392911">
       <screen x="1366" y="70" width="1360" height="768" />
     </state>
-    <state x="1466" y="168" width="1160" height="570" key="AVDManager/35.27.1331.741/1366.70.1360.768@1366.70.1360.768" timestamp="1613565033422" />
-    <state width="1314" height="151" key="GridCell.Tab.0.bottom" timestamp="1613621329117">
-      <screen x="1366" y="70" width="1360" height="768" />
+    <state x="1466" y="168" width="1160" height="570" key="AVDManager/35.27.1331.741/1366.70.1360.768@1366.70.1360.768" timestamp="1613623392911" />
+    <state width="1245" height="157" key="GridCell.Tab.0.bottom" timestamp="1613630296067">
+      <screen x="35" y="27" width="1331" height="741" />
     </state>
-    <state width="1314" height="151" key="GridCell.Tab.0.bottom/35.27.1331.741/1366.70.1360.768@1366.70.1360.768" timestamp="1613621329117" />
-    <state width="1314" height="151" key="GridCell.Tab.0.center" timestamp="1613621329117">
-      <screen x="1366" y="70" width="1360" height="768" />
+    <state width="1314" height="341" key="GridCell.Tab.0.bottom/35.27.1331.741/1366.70.1360.768@1366.70.1360.768" timestamp="1613628891816" />
+    <state width="1245" height="157" key="GridCell.Tab.0.bottom/35.27.1331.741/1366.70.1360.768@35.27.1331.741" timestamp="1613630296067" />
+    <state width="1245" height="157" key="GridCell.Tab.0.center" timestamp="1613630296066">
+      <screen x="35" y="27" width="1331" height="741" />
     </state>
-    <state width="1314" height="151" key="GridCell.Tab.0.center/35.27.1331.741/1366.70.1360.768@1366.70.1360.768" timestamp="1613621329117" />
-    <state width="1314" height="151" key="GridCell.Tab.0.left" timestamp="1613621329117">
-      <screen x="1366" y="70" width="1360" height="768" />
+    <state width="1314" height="341" key="GridCell.Tab.0.center/35.27.1331.741/1366.70.1360.768@1366.70.1360.768" timestamp="1613628891816" />
+    <state width="1245" height="157" key="GridCell.Tab.0.center/35.27.1331.741/1366.70.1360.768@35.27.1331.741" timestamp="1613630296066" />
+    <state width="1245" height="157" key="GridCell.Tab.0.left" timestamp="1613630296066">
+      <screen x="35" y="27" width="1331" height="741" />
     </state>
-    <state width="1314" height="151" key="GridCell.Tab.0.left/35.27.1331.741/1366.70.1360.768@1366.70.1360.768" timestamp="1613621329117" />
-    <state width="1314" height="151" key="GridCell.Tab.0.right" timestamp="1613621329117">
-      <screen x="1366" y="70" width="1360" height="768" />
+    <state width="1314" height="341" key="GridCell.Tab.0.left/35.27.1331.741/1366.70.1360.768@1366.70.1360.768" timestamp="1613628891815" />
+    <state width="1245" height="157" key="GridCell.Tab.0.left/35.27.1331.741/1366.70.1360.768@35.27.1331.741" timestamp="1613630296066" />
+    <state width="1245" height="157" key="GridCell.Tab.0.right" timestamp="1613630296066">
+      <screen x="35" y="27" width="1331" height="741" />
     </state>
-    <state width="1314" height="151" key="GridCell.Tab.0.right/35.27.1331.741/1366.70.1360.768@1366.70.1360.768" timestamp="1613621329117" />
+    <state width="1314" height="341" key="GridCell.Tab.0.right/35.27.1331.741/1366.70.1360.768@1366.70.1360.768" timestamp="1613628891816" />
+    <state width="1245" height="157" key="GridCell.Tab.0.right/35.27.1331.741/1366.70.1360.768@35.27.1331.741" timestamp="1613630296066" />
     <state x="1535" y="88" key="SettingsEditor" timestamp="1613484070731">
       <screen x="1366" y="70" width="1360" height="768" />
     </state>
