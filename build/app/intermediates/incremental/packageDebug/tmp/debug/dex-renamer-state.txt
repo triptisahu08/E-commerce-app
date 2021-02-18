@@ -1,0 +1,4 @@
+#Thu Feb 18 11:38:34 IST 2021
+base.0=/home/administrator/AndroidStudioProjects/E-commerce-Complete-Flutter-UI/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

@@ -3,9 +3,9 @@ import 'package:shop_app/components/custom_surfix_icon.dart';
 import 'package:shop_app/components/default_button.dart';
 import 'package:shop_app/components/form_error.dart';
 import 'package:shop_app/screens/complete_profile/complete_profile_screen.dart';
-
 import '../../constants.dart';
 import '../../size_config.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 
 class SignUpForm extends StatefulWidget {
@@ -54,14 +54,52 @@ class _SignUpFormState extends State<SignUpForm> {
             press: () {
               if (_formKey.currentState.validate()) {
                 _formKey.currentState.save();
-                // if all are valid then go to success screen
-                Navigator.pushNamed(context, CompleteProfileScreen.routeName);
+                addStringToSF();
+                //Navigator.pushNamed(context, CompleteProfileScreen.routeName);
               }
             },
           ),
         ],
       ),
     );
+  }
+
+  addStringToSF() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    prefs.setString('userEmail', 'dummy@gmail.com');
+    int index = 0;
+    print("hello");
+    bool flag = true;
+    do{
+      //SharedPreferences prefs = await SharedPreferences.getInstance();
+      String stringValue = prefs.getString('userEmail'+index.toString());
+      if(stringValue != null){
+        print(stringValue);
+        if(stringValue == email){
+          print(stringValue);
+          print('account exist');
+          break;
+        }
+        else if(index == 5){
+          print("Data load limit exceeded, please clean old data");
+          break;
+        }
+        else{
+          index++;
+          flag = true;
+        }
+      }
+      else{
+        flag = false;
+        //SharedPreferences prefs = await SharedPreferences.getInstance();
+        prefs.setString('userEmail'+index.toString(), email);
+        //SharedPreferences prefs2 = await SharedPreferences.getInstance();
+        prefs.setString('userPass'+index.toString(), password);
+        Navigator.pushNamed(context, CompleteProfileScreen.routeName, arguments: index.toString());
+      }
+    }while(flag);
+
+    print('in SP' + email);
   }
 
   TextFormField buildConformPassFormField() {
