@@ -70,13 +70,15 @@ class _CompleteProfileFormState extends State<CompleteProfileForm> {
   }
   
   _saveData(args) async {
-    print(args);
     SharedPreferences prefs = await SharedPreferences.getInstance();
     prefs.setString('userFName'+args.toString(), firstName);
     prefs.setString('userLName'+args.toString(), lastName);
     prefs.setString('userPNumber'+args.toString(), phoneNumber);
     prefs.setString('userAddress'+args.toString(), address);
-    Navigator.pushNamed(context, SignInScreen.routeName);
+    addError(error: "Registration Success");
+    Future.delayed(Duration(milliseconds: 3000), (){
+      Navigator.pushNamed(context, SignInScreen.routeName);
+    });
   }
 
   TextFormField buildAddressFormField() {
