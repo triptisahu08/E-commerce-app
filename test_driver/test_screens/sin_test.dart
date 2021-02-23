@@ -6,7 +6,7 @@ void sin()
 
    final btnSignUp = find.byValueKey('btnSignUp');
   group('E-commerce:', () {
-    final btnSplash = find.byValueKey('btnSplash');
+    //final btnSplash = find.byValueKey('btnSplash');
     FlutterDriver driver;
 
       setUpAll(() async {

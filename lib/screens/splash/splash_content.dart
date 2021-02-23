@@ -18,6 +18,7 @@ class SplashContent extends StatelessWidget {
         Spacer(),
         Text(
           "Shoppers Store",
+          key: Key('txtSplash'),          
           style: TextStyle(
             fontSize: getProportionateScreenWidth(36),
             color: kPrimaryColor,
@@ -26,6 +27,7 @@ class SplashContent extends StatelessWidget {
         ),
         Text(
           text,
+          key: Key('subTxtSplash'),
           textAlign: TextAlign.center,
         ),
         Spacer(flex: 2),

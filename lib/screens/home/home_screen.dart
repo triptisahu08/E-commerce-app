@@ -11,6 +11,7 @@ import 'components/icon_btn_with_counter.dart';
 import 'components/search_field.dart';
 import 'components/section_title.dart';
 
+// ignore: must_be_immutable
 class HomeScreen extends StatelessWidget {
   static String routeName = "/home";
   List<Map<String, dynamic>> categories = [

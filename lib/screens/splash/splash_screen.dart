@@ -43,6 +43,7 @@ class _SplashScreenState extends State<SplashScreen> {
               Expanded(
                 flex: 3,
                 child: PageView.builder(
+                  key: Key('pageViewSplash'),
                   onPageChanged: (value) {
                     setState(() {
                       currentPage = value;

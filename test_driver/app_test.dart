@@ -1,10 +1,10 @@
-import 'package:flutter_driver/flutter_driver.dart';
-import 'package:test/test.dart';
+//import 'package:flutter_driver/flutter_driver.dart';
+//import 'package:test/test.dart';
 
 import 'test_screens/ss_test.dart';
 
 void main() {
-  ss_test();
+  ssTest();
   // group('E-commerce:', () {
   //   final btnSplash = find.byValueKey('btnSplash');
   //   final btnSignUp = find.byValueKey('btnSignUp');
