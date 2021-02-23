@@ -1,0 +1,4 @@
+2021-02-23 10:35:20.673578 >>> {command: get_health}
+2021-02-23 10:35:20.743890 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 10:35:21.825066 >>> {command: tap, finderType: ByValueKey, keyValueString: btnSplash, keyValueType: String}
+2021-02-23 10:35:21.895098 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
