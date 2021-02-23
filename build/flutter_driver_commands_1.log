@@ -1,0 +1,20 @@
+2021-02-23 15:56:51.864133 >>> {command: get_health}
+2021-02-23 15:56:52.068961 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:56:52.102954 >>> {command: tap, finderType: ByValueKey, keyValueString: btnSignUp, keyValueType: String}
+2021-02-23 15:56:52.190984 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 16:35:09.342836 >>> {command: get_health}
+2021-02-23 16:35:09.455642 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 16:35:09.484951 >>> {command: tap, finderType: ByValueKey, keyValueString: btnSignUp, keyValueType: String}
+2021-02-23 16:35:09.572680 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 18:32:47.660692 >>> {command: get_health}
+2021-02-23 18:32:47.744922 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 18:32:47.775040 >>> {command: tap, finderType: ByValueKey, keyValueString: btnSignUp, keyValueType: String}
+2021-02-23 18:32:47.866833 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:11:57.150658 >>> {command: get_health}
+2021-02-23 19:11:57.268352 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:11:57.300764 >>> {command: tap, finderType: ByValueKey, keyValueString: btnSignUp, keyValueType: String}
+2021-02-23 19:11:57.394717 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:16:34.020776 >>> {command: get_health}
+2021-02-23 19:16:34.124969 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:16:34.163992 >>> {command: tap, finderType: ByValueKey, keyValueString: btnSignUp, keyValueType: String}
+2021-02-23 19:16:34.250756 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}

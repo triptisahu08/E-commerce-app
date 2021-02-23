@@ -10,7 +10,7 @@ void ssTest(){
     int delayDuration = 3; 
     String commonText = "Shoppers Store";
     String subTextSS_01_02 = "Welcome to Shoppers Store, Let’s shop!";
-    String subTextSS_01_03 =  "We help people conect with store \naround United State of America";
+    String subTextSS_01_03 =  "We help people connect with store \naround United State of America";
     String subTextSS_01_04 =  "We show the easy way to shop. \nJust stay at home with us";
 
     FlutterDriver driver;
@@ -73,6 +73,7 @@ void ssTest(){
           test('SS_03_01',() async{
             await Future.delayed(Duration(milliseconds: delayDuration));
             await driver.tap(btnSplash);
+            await Future.delayed(Duration(seconds:delayDuration));
           });
         });//Splash screen
   });

@@ -23,10 +23,10 @@ class SignUpScreen extends StatelessWidget {
               child: Column(
                 children: [
                   SizedBox(height: SizeConfig.screenHeight * 0.04), // 4%
-                  Text("Register Account", style: headingStyle),
+                  Text("Register Account", key: Key('txtSignUp'), style: headingStyle),
                   Text(
                     "Complete your details or continue \nwith social media",
-                    textAlign: TextAlign.center,
+                     textAlign: TextAlign.center,
                   ),
                   SizedBox(height: SizeConfig.screenHeight * 0.08),
                   SignUpForm(),

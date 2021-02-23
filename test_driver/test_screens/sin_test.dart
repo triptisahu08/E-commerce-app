@@ -5,8 +5,9 @@ void sin()
 {
 
    final btnSignUp = find.byValueKey('btnSignUp');
+   int delayDuration = 3;
   group('E-commerce:', () {
-    //final btnSplash = find.byValueKey('btnSplash');
+  
     FlutterDriver driver;
 
       setUpAll(() async {
@@ -18,10 +19,11 @@ void sin()
           driver.close();
         }
       });
-      group('Sign in screen-',(){
+      group('Sign in screen',(){
       test('Sign up button',()async{
-        await Future.delayed(Duration(milliseconds: 1000));
+        await Future.delayed(Duration(milliseconds: delayDuration));
         await driver.tap(btnSignUp);
+        await Future.delayed(Duration(seconds: delayDuration));
       });
     });//Sign in screen 
   });

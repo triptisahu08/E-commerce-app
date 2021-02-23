@@ -1,0 +1,112 @@
+2021-02-23 15:56:55.429430 >>> {command: get_health}
+2021-02-23 15:56:55.541378 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:56:58.573970 >>> {command: get_text, finderType: ByValueKey, keyValueString: txtSignUp, keyValueType: String}
+2021-02-23 15:56:58.682688 <<< {isError: false, response: {text: Register Account}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:56:58.718556 >>> {command: get_text, finderType: ByValueKey, keyValueString: txtSignUp, keyValueType: String}
+2021-02-23 15:56:58.760746 <<< {isError: false, response: {text: Register Account}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 16:35:12.831309 >>> {command: get_health}
+2021-02-23 16:35:12.909514 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 16:35:15.947207 >>> {command: get_text, finderType: ByValueKey, keyValueString: txtSignUp, keyValueType: String}
+2021-02-23 16:35:16.071071 <<< {isError: false, response: {text: Register Account}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 16:35:16.093395 >>> {command: get_text, finderType: ByValueKey, keyValueString: txtSignUp, keyValueType: String}
+2021-02-23 16:35:16.133075 <<< {isError: false, response: {text: Register Account}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 16:35:22.163082 >>> {command: tap, finderType: ByValueKey, keyValueString: inpRegEmail, keyValueType: String}
+2021-02-23 16:35:22.370756 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 16:35:22.397489 >>> {command: enter_text, text: tsahu08@gmail.com}
+2021-02-23 16:35:22.454341 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 16:35:25.476377 >>> {command: tap, finderType: ByValueKey, keyValueString: inpRegPass, keyValueType: String}
+2021-02-23 16:35:25.566274 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 16:35:25.588586 >>> {command: enter_text, text: 12345678}
+2021-02-23 16:35:25.617877 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 16:35:28.635271 >>> {command: tap, finderType: ByValueKey, keyValueString: inpRegPass2, keyValueType: String}
+2021-02-23 16:35:28.759489 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 16:35:28.784266 >>> {command: enter_text, text: 12345678}
+2021-02-23 16:35:28.825617 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 16:35:31.842071 >>> {command: tap, finderType: ByValueKey, keyValueString: btnRegister, keyValueType: String}
+2021-02-23 16:35:31.992755 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 16:35:32.008177 >>> {command: get_text, finderType: ByValueKey, keyValueString: inpRegPass, keyValueType: String}
+2021-02-23 18:32:51.081591 >>> {command: get_health}
+2021-02-23 18:32:51.162446 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 18:32:54.224376 >>> {command: get_text, finderType: ByValueKey, keyValueString: txtSignUp, keyValueType: String}
+2021-02-23 18:32:54.250467 <<< {isError: false, response: {text: Register Account}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 18:32:54.276010 >>> {command: get_text, finderType: ByValueKey, keyValueString: txtSignUp, keyValueType: String}
+2021-02-23 18:32:54.308500 <<< {isError: false, response: {text: Register Account}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 18:33:00.350823 >>> {command: tap, finderType: ByValueKey, keyValueString: inpRegEmail, keyValueType: String}
+2021-02-23 18:33:00.545673 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 18:33:00.660257 >>> {command: enter_text, text: tsahu08@gmail.com}
+2021-02-23 18:33:00.712151 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 18:33:03.737845 >>> {command: tap, finderType: ByValueKey, keyValueString: inpRegPass, keyValueType: String}
+2021-02-23 18:33:03.807322 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 18:33:03.827690 >>> {command: enter_text, text: 12345678}
+2021-02-23 18:33:03.880461 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 18:33:06.907164 >>> {command: tap, finderType: ByValueKey, keyValueString: inpRegPass2, keyValueType: String}
+2021-02-23 18:33:07.032263 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 18:33:07.050620 >>> {command: enter_text, text: 12345678}
+2021-02-23 18:33:07.094189 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 18:33:10.118922 >>> {command: tap, finderType: ByValueKey, keyValueString: btnRegister, keyValueType: String}
+2021-02-23 18:33:10.304757 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 18:33:10.329748 >>> {command: get_text, finderType: ByValueKey, keyValueString: txtCompleteP, keyValueType: String}
+2021-02-23 18:33:10.797525 <<< {isError: false, response: {text: Complete Profile}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:12:00.687660 >>> {command: get_health}
+2021-02-23 19:12:00.888913 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:12:03.933179 >>> {command: get_text, finderType: ByValueKey, keyValueString: txtSignUp, keyValueType: String}
+2021-02-23 19:12:04.076718 <<< {isError: false, response: {text: Register Account}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:12:04.099609 >>> {command: get_text, finderType: ByValueKey, keyValueString: txtSignUp, keyValueType: String}
+2021-02-23 19:12:04.142341 <<< {isError: false, response: {text: Register Account}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:12:10.180235 >>> {command: tap, finderType: ByValueKey, keyValueString: inpRegEmail, keyValueType: String}
+2021-02-23 19:12:10.387269 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:12:10.403070 >>> {command: enter_text, text: tsahu08@gmail.com}
+2021-02-23 19:12:10.485494 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:12:13.503908 >>> {command: tap, finderType: ByValueKey, keyValueString: inpRegPass, keyValueType: String}
+2021-02-23 19:12:13.708050 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:12:13.728304 >>> {command: enter_text, text: 12345678}
+2021-02-23 19:12:13.760855 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:12:16.785900 >>> {command: tap, finderType: ByValueKey, keyValueString: inpRegPass2, keyValueType: String}
+2021-02-23 19:12:16.879283 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:12:16.899027 >>> {command: enter_text, text: 12345678}
+2021-02-23 19:12:16.929481 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:12:19.945789 >>> {command: tap, finderType: ByValueKey, keyValueString: btnRegister, keyValueType: String}
+2021-02-23 19:12:20.212594 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:12:20.234591 >>> {command: get_text, finderType: ByValueKey, keyValueString: txtCompleteP, keyValueType: String}
+2021-02-23 19:12:20.668827 <<< {isError: false, response: {text: Complete Profile}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:12:26.716809 >>> {command: tap, finderType: ByValueKey, keyValueString: inpRegEmail, keyValueType: String}
+2021-02-23 19:16:37.574035 >>> {command: get_health}
+2021-02-23 19:16:37.701891 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:16:40.730210 >>> {command: get_text, finderType: ByValueKey, keyValueString: txtSignUp, keyValueType: String}
+2021-02-23 19:16:40.783092 <<< {isError: false, response: {text: Register Account}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:16:40.808259 >>> {command: get_text, finderType: ByValueKey, keyValueString: txtSignUp, keyValueType: String}
+2021-02-23 19:16:40.856160 <<< {isError: false, response: {text: Register Account}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:16:46.888952 >>> {command: tap, finderType: ByValueKey, keyValueString: inpRegEmail, keyValueType: String}
+2021-02-23 19:16:47.045923 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:16:47.063429 >>> {command: enter_text, text: tsahu08@gmail.com}
+2021-02-23 19:16:47.126521 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:16:50.153072 >>> {command: tap, finderType: ByValueKey, keyValueString: inpRegPass, keyValueType: String}
+2021-02-23 19:16:50.260554 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:16:50.285117 >>> {command: enter_text, text: 12345678}
+2021-02-23 19:16:50.326455 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:16:53.352887 >>> {command: tap, finderType: ByValueKey, keyValueString: inpRegPass2, keyValueType: String}
+2021-02-23 19:16:53.503084 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:16:53.520641 >>> {command: enter_text, text: 12345678}
+2021-02-23 19:16:53.567265 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:16:56.589167 >>> {command: tap, finderType: ByValueKey, keyValueString: btnRegister, keyValueType: String}
+2021-02-23 19:16:56.743519 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:16:56.766710 >>> {command: get_text, finderType: ByValueKey, keyValueString: txtCompleteP, keyValueType: String}
+2021-02-23 19:16:57.074515 <<< {isError: false, response: {text: Complete Profile}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:17:03.116602 >>> {command: tap, finderType: PageBack}
+2021-02-23 19:17:03.238380 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:17:06.260841 >>> {command: tap, finderType: ByValueKey, keyValueString: inpRegEmail, keyValueType: String}
+2021-02-23 19:17:06.396434 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:17:06.414432 >>> {command: enter_text, text: tsahu08@gmail.com}
+2021-02-23 19:17:06.443471 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:17:09.463178 >>> {command: tap, finderType: ByValueKey, keyValueString: inpRegPass, keyValueType: String}
+2021-02-23 19:17:09.527871 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:17:09.543811 >>> {command: enter_text, text: 12345678}
+2021-02-23 19:17:09.577036 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:17:12.601240 >>> {command: tap, finderType: ByValueKey, keyValueString: inpRegPass2, keyValueType: String}
+2021-02-23 19:17:12.673653 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:17:12.693451 >>> {command: enter_text, text: 00000000}
+2021-02-23 19:17:12.731326 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:17:15.752014 >>> {command: tap, finderType: ByValueKey, keyValueString: btnRegister, keyValueType: String}
+2021-02-23 19:17:15.881112 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:17:15.899579 >>> {command: get_text, finderType: ByValueKey, keyValueString: errorSignUp, keyValueType: String}
+2021-02-23 19:17:16.131724 <<< {isError: false, response: {text: Passwords don't match}, type: _extensionType, method: ext.flutter.driver}

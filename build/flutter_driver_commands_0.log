@@ -368,3 +368,315 @@ around United State of America}, type: _extensionType, method: ext.flutter.drive
 2021-02-23 13:17:56.001578 <<< {isError: false, response: {text: Welcome to Shoppers Store, Let’s shop!}, type: _extensionType, method: ext.flutter.driver}
 2021-02-23 13:17:56.044737 >>> {command: tap, finderType: ByValueKey, keyValueString: btnSplash, keyValueType: String}
 2021-02-23 13:17:56.202793 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:30:10.515667 >>> {command: get_health}
+2021-02-23 15:30:12.386337 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:30:15.448674 >>> {command: get_text, finderType: ByValueKey, keyValueString: txtSplash, keyValueType: String}
+2021-02-23 15:30:15.553276 <<< {isError: false, response: {text: Shoppers Store}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:30:15.571972 >>> {command: get_text, finderType: ByValueKey, keyValueString: txtSplash, keyValueType: String}
+2021-02-23 15:30:15.600950 <<< {isError: false, response: {text: Shoppers Store}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:30:18.627015 >>> {command: waitFor, finderType: ByValueKey, keyValueString: pageViewSplash, keyValueType: String}
+2021-02-23 15:30:18.689596 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:30:18.710737 >>> {command: tap, finderType: ByValueKey, keyValueString: subTxtSplash, keyValueType: String}
+2021-02-23 15:30:18.938912 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:30:18.976119 >>> {command: get_text, finderType: ByText, text: Welcome to Shoppers Store, Let’s shop!}
+2021-02-23 15:30:19.031329 <<< {isError: false, response: {text: Welcome to Shoppers Store, Let’s shop!}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:30:19.052628 >>> {command: get_text, finderType: ByValueKey, keyValueString: subTxtSplash, keyValueType: String}
+2021-02-23 15:30:19.100857 <<< {isError: false, response: {text: Welcome to Shoppers Store, Let’s shop!}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:30:22.124494 >>> {command: waitFor, finderType: ByValueKey, keyValueString: pageViewSplash, keyValueType: String}
+2021-02-23 15:30:22.164756 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:30:22.185899 >>> {command: scroll, finderType: ByValueKey, keyValueString: pageViewSplash, keyValueType: String, dx: -400.0, dy: 0.0, duration: 3000000, frequency: 60}
+2021-02-23 15:30:26.313900 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:30:26.342091 >>> {command: tap, finderType: ByValueKey, keyValueString: subTxtSplash, keyValueType: String}
+2021-02-23 15:30:26.720439 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:30:26.753699 >>> {command: get_text, finderType: ByText, text: We help people conect with store 
+around United State of America}
+2021-02-23 15:30:26.798108 <<< {isError: false, response: {text: We help people conect with store 
+around United State of America}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:30:26.821320 >>> {command: get_text, finderType: ByValueKey, keyValueString: subTxtSplash, keyValueType: String}
+2021-02-23 15:30:26.861498 <<< {isError: false, response: {text: We help people conect with store 
+around United State of America}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:30:29.887962 >>> {command: waitFor, finderType: ByValueKey, keyValueString: pageViewSplash, keyValueType: String}
+2021-02-23 15:30:30.382710 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:30:30.403775 >>> {command: scroll, finderType: ByValueKey, keyValueString: pageViewSplash, keyValueType: String, dx: -400.0, dy: 0.0, duration: 3000000, frequency: 60}
+2021-02-23 15:30:34.196287 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:30:34.250183 >>> {command: tap, finderType: ByValueKey, keyValueString: subTxtSplash, keyValueType: String}
+2021-02-23 15:30:34.941912 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:30:35.199830 >>> {command: get_text, finderType: ByText, text: We show the easy way to shop. 
+Just stay at home with us}
+2021-02-23 15:30:35.241715 <<< {isError: false, response: {text: We show the easy way to shop. 
+Just stay at home with us}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:30:35.267484 >>> {command: get_text, finderType: ByValueKey, keyValueString: subTxtSplash, keyValueType: String}
+2021-02-23 15:30:35.309897 <<< {isError: false, response: {text: We show the easy way to shop. 
+Just stay at home with us}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:30:35.346289 >>> {command: scroll, finderType: ByValueKey, keyValueString: pageViewSplash, keyValueType: String, dx: 400.0, dy: 0.0, duration: 500000, frequency: 60}
+2021-02-23 15:30:36.044498 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:30:36.147893 >>> {command: get_text, finderType: ByText, text: We help people conect with store 
+around United State of America}
+2021-02-23 15:30:36.455061 <<< {isError: false, response: {text: We help people conect with store 
+around United State of America}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:30:36.492193 >>> {command: scroll, finderType: ByValueKey, keyValueString: pageViewSplash, keyValueType: String, dx: 400.0, dy: 0.0, duration: 500000, frequency: 60}
+2021-02-23 15:30:37.172447 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:30:37.316603 >>> {command: get_text, finderType: ByText, text: Welcome to Shoppers Store, Let’s shop!}
+2021-02-23 15:30:37.784137 <<< {isError: false, response: {text: Welcome to Shoppers Store, Let’s shop!}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:30:37.878034 >>> {command: tap, finderType: ByValueKey, keyValueString: btnSplash, keyValueType: String}
+2021-02-23 15:30:38.033070 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:56:21.139944 >>> {command: get_health}
+2021-02-23 15:56:23.207119 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:56:26.294886 >>> {command: get_text, finderType: ByValueKey, keyValueString: txtSplash, keyValueType: String}
+2021-02-23 15:56:26.444682 <<< {isError: false, response: {text: Shoppers Store}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:56:26.467506 >>> {command: get_text, finderType: ByValueKey, keyValueString: txtSplash, keyValueType: String}
+2021-02-23 15:56:26.501274 <<< {isError: false, response: {text: Shoppers Store}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:56:29.534897 >>> {command: waitFor, finderType: ByValueKey, keyValueString: pageViewSplash, keyValueType: String}
+2021-02-23 15:56:29.586336 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:56:29.605191 >>> {command: tap, finderType: ByValueKey, keyValueString: subTxtSplash, keyValueType: String}
+2021-02-23 15:56:29.807319 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:56:29.840418 >>> {command: get_text, finderType: ByText, text: Welcome to Shoppers Store, Let’s shop!}
+2021-02-23 15:56:29.900474 <<< {isError: false, response: {text: Welcome to Shoppers Store, Let’s shop!}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:56:29.919999 >>> {command: get_text, finderType: ByValueKey, keyValueString: subTxtSplash, keyValueType: String}
+2021-02-23 15:56:30.004766 <<< {isError: false, response: {text: Welcome to Shoppers Store, Let’s shop!}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:56:33.041930 >>> {command: waitFor, finderType: ByValueKey, keyValueString: pageViewSplash, keyValueType: String}
+2021-02-23 15:56:33.116113 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:56:33.146748 >>> {command: scroll, finderType: ByValueKey, keyValueString: pageViewSplash, keyValueType: String, dx: -400.0, dy: 0.0, duration: 3000000, frequency: 60}
+2021-02-23 15:56:37.172897 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:56:37.229549 >>> {command: tap, finderType: ByValueKey, keyValueString: subTxtSplash, keyValueType: String}
+2021-02-23 15:56:37.618199 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:56:37.774678 >>> {command: get_text, finderType: ByText, text: We help people connect with store 
+around United State of America}
+2021-02-23 15:56:37.901583 <<< {isError: false, response: {text: We help people connect with store 
+around United State of America}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:56:37.975568 >>> {command: get_text, finderType: ByValueKey, keyValueString: subTxtSplash, keyValueType: String}
+2021-02-23 15:56:38.172328 <<< {isError: false, response: {text: We help people connect with store 
+around United State of America}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:56:41.213273 >>> {command: waitFor, finderType: ByValueKey, keyValueString: pageViewSplash, keyValueType: String}
+2021-02-23 15:56:41.296183 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:56:41.311704 >>> {command: scroll, finderType: ByValueKey, keyValueString: pageViewSplash, keyValueType: String, dx: -400.0, dy: 0.0, duration: 3000000, frequency: 60}
+2021-02-23 15:56:45.173177 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:56:45.269002 >>> {command: tap, finderType: ByValueKey, keyValueString: subTxtSplash, keyValueType: String}
+2021-02-23 15:56:45.999634 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:56:46.025398 >>> {command: get_text, finderType: ByText, text: We show the easy way to shop. 
+Just stay at home with us}
+2021-02-23 15:56:46.068482 <<< {isError: false, response: {text: We show the easy way to shop. 
+Just stay at home with us}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:56:46.093376 >>> {command: get_text, finderType: ByValueKey, keyValueString: subTxtSplash, keyValueType: String}
+2021-02-23 15:56:46.131222 <<< {isError: false, response: {text: We show the easy way to shop. 
+Just stay at home with us}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:56:46.155882 >>> {command: scroll, finderType: ByValueKey, keyValueString: pageViewSplash, keyValueType: String, dx: 400.0, dy: 0.0, duration: 500000, frequency: 60}
+2021-02-23 15:56:46.809261 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:56:46.851052 >>> {command: get_text, finderType: ByText, text: We help people connect with store 
+around United State of America}
+2021-02-23 15:56:47.225672 <<< {isError: false, response: {text: We help people connect with store 
+around United State of America}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:56:47.261814 >>> {command: scroll, finderType: ByValueKey, keyValueString: pageViewSplash, keyValueType: String, dx: 400.0, dy: 0.0, duration: 500000, frequency: 60}
+2021-02-23 15:56:47.871371 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:56:47.964542 >>> {command: get_text, finderType: ByText, text: Welcome to Shoppers Store, Let’s shop!}
+2021-02-23 15:56:48.485145 <<< {isError: false, response: {text: Welcome to Shoppers Store, Let’s shop!}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 15:56:48.535001 >>> {command: tap, finderType: ByValueKey, keyValueString: btnSplash, keyValueType: String}
+2021-02-23 15:56:48.672900 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 16:34:39.136220 >>> {command: get_health}
+2021-02-23 16:34:40.869581 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 16:34:43.925714 >>> {command: get_text, finderType: ByValueKey, keyValueString: txtSplash, keyValueType: String}
+2021-02-23 16:34:44.061702 <<< {isError: false, response: {text: Shoppers Store}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 16:34:44.081214 >>> {command: get_text, finderType: ByValueKey, keyValueString: txtSplash, keyValueType: String}
+2021-02-23 16:34:44.124523 <<< {isError: false, response: {text: Shoppers Store}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 16:34:47.170034 >>> {command: waitFor, finderType: ByValueKey, keyValueString: pageViewSplash, keyValueType: String}
+2021-02-23 16:34:47.260644 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 16:34:47.286013 >>> {command: tap, finderType: ByValueKey, keyValueString: subTxtSplash, keyValueType: String}
+2021-02-23 16:34:47.494583 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 16:34:47.539579 >>> {command: get_text, finderType: ByText, text: Welcome to Shoppers Store, Let’s shop!}
+2021-02-23 16:34:47.609624 <<< {isError: false, response: {text: Welcome to Shoppers Store, Let’s shop!}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 16:34:47.627682 >>> {command: get_text, finderType: ByValueKey, keyValueString: subTxtSplash, keyValueType: String}
+2021-02-23 16:34:47.667792 <<< {isError: false, response: {text: Welcome to Shoppers Store, Let’s shop!}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 16:34:50.688190 >>> {command: waitFor, finderType: ByValueKey, keyValueString: pageViewSplash, keyValueType: String}
+2021-02-23 16:34:50.728395 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 16:34:50.753248 >>> {command: scroll, finderType: ByValueKey, keyValueString: pageViewSplash, keyValueType: String, dx: -400.0, dy: 0.0, duration: 3000000, frequency: 60}
+2021-02-23 16:34:54.782586 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 16:34:54.810807 >>> {command: tap, finderType: ByValueKey, keyValueString: subTxtSplash, keyValueType: String}
+2021-02-23 16:34:55.248857 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 16:34:55.278432 >>> {command: get_text, finderType: ByText, text: We help people connect with store 
+around United State of America}
+2021-02-23 16:34:55.333189 <<< {isError: false, response: {text: We help people connect with store 
+around United State of America}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 16:34:55.357468 >>> {command: get_text, finderType: ByValueKey, keyValueString: subTxtSplash, keyValueType: String}
+2021-02-23 16:34:55.398694 <<< {isError: false, response: {text: We help people connect with store 
+around United State of America}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 16:34:58.433059 >>> {command: waitFor, finderType: ByValueKey, keyValueString: pageViewSplash, keyValueType: String}
+2021-02-23 16:34:58.504796 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 16:34:58.530597 >>> {command: scroll, finderType: ByValueKey, keyValueString: pageViewSplash, keyValueType: String, dx: -400.0, dy: 0.0, duration: 3000000, frequency: 60}
+2021-02-23 16:35:02.192021 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 16:35:02.326630 >>> {command: tap, finderType: ByValueKey, keyValueString: subTxtSplash, keyValueType: String}
+2021-02-23 16:35:03.146807 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 16:35:03.206044 >>> {command: get_text, finderType: ByText, text: We show the easy way to shop. 
+Just stay at home with us}
+2021-02-23 16:35:03.246531 <<< {isError: false, response: {text: We show the easy way to shop. 
+Just stay at home with us}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 16:35:03.262413 >>> {command: get_text, finderType: ByValueKey, keyValueString: subTxtSplash, keyValueType: String}
+2021-02-23 16:35:03.303076 <<< {isError: false, response: {text: We show the easy way to shop. 
+Just stay at home with us}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 16:35:03.374610 >>> {command: scroll, finderType: ByValueKey, keyValueString: pageViewSplash, keyValueType: String, dx: 400.0, dy: 0.0, duration: 500000, frequency: 60}
+2021-02-23 16:35:04.097432 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 16:35:04.197795 >>> {command: get_text, finderType: ByText, text: We help people connect with store 
+around United State of America}
+2021-02-23 16:35:04.525894 <<< {isError: false, response: {text: We help people connect with store 
+around United State of America}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 16:35:04.621753 >>> {command: scroll, finderType: ByValueKey, keyValueString: pageViewSplash, keyValueType: String, dx: 400.0, dy: 0.0, duration: 500000, frequency: 60}
+2021-02-23 16:35:05.293219 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 16:35:05.344164 >>> {command: get_text, finderType: ByText, text: Welcome to Shoppers Store, Let’s shop!}
+2021-02-23 16:35:05.921538 <<< {isError: false, response: {text: Welcome to Shoppers Store, Let’s shop!}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 16:35:05.976229 >>> {command: tap, finderType: ByValueKey, keyValueString: btnSplash, keyValueType: String}
+2021-02-23 16:35:06.100523 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 18:32:17.195182 >>> {command: get_health}
+2021-02-23 18:32:19.082050 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 18:32:22.155480 >>> {command: get_text, finderType: ByValueKey, keyValueString: txtSplash, keyValueType: String}
+2021-02-23 18:32:22.270244 <<< {isError: false, response: {text: Shoppers Store}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 18:32:22.288247 >>> {command: get_text, finderType: ByValueKey, keyValueString: txtSplash, keyValueType: String}
+2021-02-23 18:32:22.315945 <<< {isError: false, response: {text: Shoppers Store}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 18:32:25.356848 >>> {command: waitFor, finderType: ByValueKey, keyValueString: pageViewSplash, keyValueType: String}
+2021-02-23 18:32:25.485738 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 18:32:25.508553 >>> {command: tap, finderType: ByValueKey, keyValueString: subTxtSplash, keyValueType: String}
+2021-02-23 18:32:25.737330 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 18:32:25.771066 >>> {command: get_text, finderType: ByText, text: Welcome to Shoppers Store, Let’s shop!}
+2021-02-23 18:32:25.813267 <<< {isError: false, response: {text: Welcome to Shoppers Store, Let’s shop!}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 18:32:25.837852 >>> {command: get_text, finderType: ByValueKey, keyValueString: subTxtSplash, keyValueType: String}
+2021-02-23 18:32:25.866390 <<< {isError: false, response: {text: Welcome to Shoppers Store, Let’s shop!}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 18:32:28.899234 >>> {command: waitFor, finderType: ByValueKey, keyValueString: pageViewSplash, keyValueType: String}
+2021-02-23 18:32:28.960538 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 18:32:28.987535 >>> {command: scroll, finderType: ByValueKey, keyValueString: pageViewSplash, keyValueType: String, dx: -400.0, dy: 0.0, duration: 3000000, frequency: 60}
+2021-02-23 18:32:32.890020 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 18:32:32.934658 >>> {command: tap, finderType: ByValueKey, keyValueString: subTxtSplash, keyValueType: String}
+2021-02-23 18:32:33.336729 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 18:32:33.424491 >>> {command: get_text, finderType: ByText, text: We help people connect with store 
+around United State of America}
+2021-02-23 18:32:33.501559 <<< {isError: false, response: {text: We help people connect with store 
+around United State of America}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 18:32:33.525064 >>> {command: get_text, finderType: ByValueKey, keyValueString: subTxtSplash, keyValueType: String}
+2021-02-23 18:32:33.570114 <<< {isError: false, response: {text: We help people connect with store 
+around United State of America}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 18:32:36.602994 >>> {command: waitFor, finderType: ByValueKey, keyValueString: pageViewSplash, keyValueType: String}
+2021-02-23 18:32:36.631713 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 18:32:36.649901 >>> {command: scroll, finderType: ByValueKey, keyValueString: pageViewSplash, keyValueType: String, dx: -400.0, dy: 0.0, duration: 3000000, frequency: 60}
+2021-02-23 18:32:40.398255 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 18:32:40.475481 >>> {command: tap, finderType: ByValueKey, keyValueString: subTxtSplash, keyValueType: String}
+2021-02-23 18:32:41.116732 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 18:32:41.198569 >>> {command: get_text, finderType: ByText, text: We show the easy way to shop. 
+Just stay at home with us}
+2021-02-23 18:32:41.234137 <<< {isError: false, response: {text: We show the easy way to shop. 
+Just stay at home with us}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 18:32:41.255489 >>> {command: get_text, finderType: ByValueKey, keyValueString: subTxtSplash, keyValueType: String}
+2021-02-23 18:32:41.300116 <<< {isError: false, response: {text: We show the easy way to shop. 
+Just stay at home with us}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 18:32:41.332110 >>> {command: scroll, finderType: ByValueKey, keyValueString: pageViewSplash, keyValueType: String, dx: 400.0, dy: 0.0, duration: 500000, frequency: 60}
+2021-02-23 18:32:42.035037 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 18:32:42.112787 >>> {command: get_text, finderType: ByText, text: We help people connect with store 
+around United State of America}
+2021-02-23 18:32:42.443819 <<< {isError: false, response: {text: We help people connect with store 
+around United State of America}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 18:32:42.634334 >>> {command: scroll, finderType: ByValueKey, keyValueString: pageViewSplash, keyValueType: String, dx: 400.0, dy: 0.0, duration: 500000, frequency: 60}
+2021-02-23 18:32:43.413273 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 18:32:43.469177 >>> {command: get_text, finderType: ByText, text: Welcome to Shoppers Store, Let’s shop!}
+2021-02-23 18:32:44.044712 <<< {isError: false, response: {text: Welcome to Shoppers Store, Let’s shop!}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 18:32:44.114936 >>> {command: tap, finderType: ByValueKey, keyValueString: btnSplash, keyValueType: String}
+2021-02-23 18:32:44.292744 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:11:26.947442 >>> {command: get_health}
+2021-02-23 19:11:28.768999 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:11:31.828438 >>> {command: get_text, finderType: ByValueKey, keyValueString: txtSplash, keyValueType: String}
+2021-02-23 19:11:31.924791 <<< {isError: false, response: {text: Shoppers Store}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:11:31.943995 >>> {command: get_text, finderType: ByValueKey, keyValueString: txtSplash, keyValueType: String}
+2021-02-23 19:11:31.985329 <<< {isError: false, response: {text: Shoppers Store}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:11:35.032511 >>> {command: waitFor, finderType: ByValueKey, keyValueString: pageViewSplash, keyValueType: String}
+2021-02-23 19:11:35.128655 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:11:35.146826 >>> {command: tap, finderType: ByValueKey, keyValueString: subTxtSplash, keyValueType: String}
+2021-02-23 19:11:35.338499 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:11:35.357735 >>> {command: get_text, finderType: ByText, text: Welcome to Shoppers Store, Let’s shop!}
+2021-02-23 19:11:35.400492 <<< {isError: false, response: {text: Welcome to Shoppers Store, Let’s shop!}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:11:35.423899 >>> {command: get_text, finderType: ByValueKey, keyValueString: subTxtSplash, keyValueType: String}
+2021-02-23 19:11:35.490686 <<< {isError: false, response: {text: Welcome to Shoppers Store, Let’s shop!}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:11:38.516065 >>> {command: waitFor, finderType: ByValueKey, keyValueString: pageViewSplash, keyValueType: String}
+2021-02-23 19:11:38.566032 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:11:38.585303 >>> {command: scroll, finderType: ByValueKey, keyValueString: pageViewSplash, keyValueType: String, dx: -400.0, dy: 0.0, duration: 3000000, frequency: 60}
+2021-02-23 19:11:42.587212 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:11:42.687496 >>> {command: tap, finderType: ByValueKey, keyValueString: subTxtSplash, keyValueType: String}
+2021-02-23 19:11:43.061901 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:11:43.099519 >>> {command: get_text, finderType: ByText, text: We help people connect with store 
+around United State of America}
+2021-02-23 19:11:43.158656 <<< {isError: false, response: {text: We help people connect with store 
+around United State of America}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:11:43.178321 >>> {command: get_text, finderType: ByValueKey, keyValueString: subTxtSplash, keyValueType: String}
+2021-02-23 19:11:43.217731 <<< {isError: false, response: {text: We help people connect with store 
+around United State of America}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:11:46.243526 >>> {command: waitFor, finderType: ByValueKey, keyValueString: pageViewSplash, keyValueType: String}
+2021-02-23 19:11:46.353837 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:11:46.380723 >>> {command: scroll, finderType: ByValueKey, keyValueString: pageViewSplash, keyValueType: String, dx: -400.0, dy: 0.0, duration: 3000000, frequency: 60}
+2021-02-23 19:11:50.263607 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:11:50.312359 >>> {command: tap, finderType: ByValueKey, keyValueString: subTxtSplash, keyValueType: String}
+2021-02-23 19:11:50.981014 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:11:51.036520 >>> {command: get_text, finderType: ByText, text: We show the easy way to shop. 
+Just stay at home with us}
+2021-02-23 19:11:51.078825 <<< {isError: false, response: {text: We show the easy way to shop. 
+Just stay at home with us}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:11:51.103761 >>> {command: get_text, finderType: ByValueKey, keyValueString: subTxtSplash, keyValueType: String}
+2021-02-23 19:11:51.146477 <<< {isError: false, response: {text: We show the easy way to shop. 
+Just stay at home with us}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:11:51.180072 >>> {command: scroll, finderType: ByValueKey, keyValueString: pageViewSplash, keyValueType: String, dx: 400.0, dy: 0.0, duration: 500000, frequency: 60}
+2021-02-23 19:11:51.870301 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:11:51.971345 >>> {command: get_text, finderType: ByText, text: We help people connect with store 
+around United State of America}
+2021-02-23 19:11:52.287036 <<< {isError: false, response: {text: We help people connect with store 
+around United State of America}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:11:52.327503 >>> {command: scroll, finderType: ByValueKey, keyValueString: pageViewSplash, keyValueType: String, dx: 400.0, dy: 0.0, duration: 500000, frequency: 60}
+2021-02-23 19:11:52.932682 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:11:52.963196 >>> {command: get_text, finderType: ByText, text: Welcome to Shoppers Store, Let’s shop!}
+2021-02-23 19:11:53.566631 <<< {isError: false, response: {text: Welcome to Shoppers Store, Let’s shop!}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:11:53.674790 >>> {command: tap, finderType: ByValueKey, keyValueString: btnSplash, keyValueType: String}
+2021-02-23 19:11:53.840751 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:16:02.770110 >>> {command: get_health}
+2021-02-23 19:16:04.634222 <<< {isError: false, response: {status: ok}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:16:07.693556 >>> {command: get_text, finderType: ByValueKey, keyValueString: txtSplash, keyValueType: String}
+2021-02-23 19:16:07.806424 <<< {isError: false, response: {text: Shoppers Store}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:16:07.825888 >>> {command: get_text, finderType: ByValueKey, keyValueString: txtSplash, keyValueType: String}
+2021-02-23 19:16:07.855332 <<< {isError: false, response: {text: Shoppers Store}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:16:10.889966 >>> {command: waitFor, finderType: ByValueKey, keyValueString: pageViewSplash, keyValueType: String}
+2021-02-23 19:16:11.511624 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:16:11.532247 >>> {command: tap, finderType: ByValueKey, keyValueString: subTxtSplash, keyValueType: String}
+2021-02-23 19:16:11.720723 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:16:11.814096 >>> {command: get_text, finderType: ByText, text: Welcome to Shoppers Store, Let’s shop!}
+2021-02-23 19:16:11.896223 <<< {isError: false, response: {text: Welcome to Shoppers Store, Let’s shop!}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:16:11.912 >>> {command: get_text, finderType: ByValueKey, keyValueString: subTxtSplash, keyValueType: String}
+2021-02-23 19:16:11.943891 <<< {isError: false, response: {text: Welcome to Shoppers Store, Let’s shop!}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:16:14.973920 >>> {command: waitFor, finderType: ByValueKey, keyValueString: pageViewSplash, keyValueType: String}
+2021-02-23 19:16:15.082470 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:16:15.114678 >>> {command: scroll, finderType: ByValueKey, keyValueString: pageViewSplash, keyValueType: String, dx: -400.0, dy: 0.0, duration: 3000000, frequency: 60}
+2021-02-23 19:16:19.452038 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:16:19.506983 >>> {command: tap, finderType: ByValueKey, keyValueString: subTxtSplash, keyValueType: String}
+2021-02-23 19:16:19.927542 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:16:20.008076 >>> {command: get_text, finderType: ByText, text: We help people connect with store 
+around United State of America}
+2021-02-23 19:16:20.061171 <<< {isError: false, response: {text: We help people connect with store 
+around United State of America}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:16:20.086511 >>> {command: get_text, finderType: ByValueKey, keyValueString: subTxtSplash, keyValueType: String}
+2021-02-23 19:16:20.132936 <<< {isError: false, response: {text: We help people connect with store 
+around United State of America}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:16:23.166121 >>> {command: waitFor, finderType: ByValueKey, keyValueString: pageViewSplash, keyValueType: String}
+2021-02-23 19:16:23.284907 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:16:23.311607 >>> {command: scroll, finderType: ByValueKey, keyValueString: pageViewSplash, keyValueType: String, dx: -400.0, dy: 0.0, duration: 3000000, frequency: 60}
+2021-02-23 19:16:27.044196 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:16:27.133054 >>> {command: tap, finderType: ByValueKey, keyValueString: subTxtSplash, keyValueType: String}
+2021-02-23 19:16:27.810273 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:16:27.934275 >>> {command: get_text, finderType: ByText, text: We show the easy way to shop. 
+Just stay at home with us}
+2021-02-23 19:16:27.979484 <<< {isError: false, response: {text: We show the easy way to shop. 
+Just stay at home with us}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:16:28.001525 >>> {command: get_text, finderType: ByValueKey, keyValueString: subTxtSplash, keyValueType: String}
+2021-02-23 19:16:28.041152 <<< {isError: false, response: {text: We show the easy way to shop. 
+Just stay at home with us}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:16:28.066385 >>> {command: scroll, finderType: ByValueKey, keyValueString: pageViewSplash, keyValueType: String, dx: 400.0, dy: 0.0, duration: 500000, frequency: 60}
+2021-02-23 19:16:28.727635 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:16:28.880696 >>> {command: get_text, finderType: ByText, text: We help people connect with store 
+around United State of America}
+2021-02-23 19:16:29.160234 <<< {isError: false, response: {text: We help people connect with store 
+around United State of America}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:16:29.248056 >>> {command: scroll, finderType: ByValueKey, keyValueString: pageViewSplash, keyValueType: String, dx: 400.0, dy: 0.0, duration: 500000, frequency: 60}
+2021-02-23 19:16:29.967641 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:16:30.026345 >>> {command: get_text, finderType: ByText, text: Welcome to Shoppers Store, Let’s shop!}
+2021-02-23 19:16:30.572246 <<< {isError: false, response: {text: Welcome to Shoppers Store, Let’s shop!}, type: _extensionType, method: ext.flutter.driver}
+2021-02-23 19:16:30.662981 >>> {command: tap, finderType: ByValueKey, keyValueString: btnSplash, keyValueType: String}
+2021-02-23 19:16:30.800752 <<< {isError: false, response: {}, type: _extensionType, method: ext.flutter.driver}
