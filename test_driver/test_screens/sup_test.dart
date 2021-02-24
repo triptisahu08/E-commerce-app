@@ -314,11 +314,11 @@ void supTest(){
         await Future.delayed(Duration(seconds: delayDuration));
       },timeout: Timeout.none);
 
-      test('SUP_02_01', ()async {
+      test('SUP_02_13', ()async {
         await Future.delayed(Duration(seconds: delayDuration));
 
         await driver.tap(emailField);
-        await driver.enterText(testEmail);
+        await driver.enterText('test@gmail.com');
         await Future.delayed(Duration(seconds: delayDuration));
 
         await driver.tap(passField);
