@@ -16,6 +16,7 @@ void supTest(){
       String testInvalidEmail = 'test@mail';
       String testPass = '12345678';
       String testDiffPass = '00000000';
+      String testShortPass = '123456';
       String txtSignUpSUP_01_01 = "Register Account";
 
       int delayDuration = 3; 
@@ -87,6 +88,48 @@ void supTest(){
         //await driver.tap(find.pageBack());
         await Future.delayed(Duration(seconds: delayDuration));
         await driver.tap(emailField);
+        await driver.enterText(testInvalidEmail);
+        await Future.delayed(Duration(seconds: delayDuration));
+        
+        await driver.tap(passField);
+        await driver.enterText(testPass);
+        await Future.delayed(Duration(seconds: delayDuration));
+
+        await driver.tap(confirmpassField);
+        await driver.enterText(testPass);
+        await Future.delayed(Duration(seconds: delayDuration));
+        await driver.tap(btnRegister);
+
+        expect(await driver.getText(error), "Please Enter Valid Email");
+        await Future.delayed(Duration(seconds: delayDuration));
+      });
+        
+      test('SUP_02_04', ()async { 
+        await Future.delayed(Duration(seconds: delayDuration));
+        //await driver.tap(find.pageBack());
+        await Future.delayed(Duration(seconds: delayDuration));
+        await driver.tap(emailField);
+        await driver.enterText(testEmail);
+        await Future.delayed(Duration(seconds: delayDuration));
+        
+        await driver.tap(passField);
+        await driver.enterText(testShortPass);
+        await Future.delayed(Duration(seconds: delayDuration));
+
+        await driver.tap(confirmpassField);
+        await driver.enterText(testShortPass);
+        await Future.delayed(Duration(seconds: delayDuration));
+        await driver.tap(btnRegister);
+
+        expect(await driver.getText(error), "Password is too short");
+        await Future.delayed(Duration(seconds: delayDuration));
+      });
+
+      test('SUP_02_05', ()async { 
+        await Future.delayed(Duration(seconds: delayDuration));
+        //await driver.tap(find.pageBack());
+        await Future.delayed(Duration(seconds: delayDuration));
+        await driver.tap(emailField);
         await driver.enterText(testEmail);
         await Future.delayed(Duration(seconds: delayDuration));
         
@@ -95,13 +138,36 @@ void supTest(){
         await Future.delayed(Duration(seconds: delayDuration));
 
         await driver.tap(confirmpassField);
-        await driver.enterText(testDiffPass);
+        await driver.enterText(testPass);
         await Future.delayed(Duration(seconds: delayDuration));
         await driver.tap(btnRegister);
 
-        expect(await driver.getText(error), "Passwords don't match");
+        expect(await driver.getText(txtSignUp), txtSignUpSUP_01_01);
         await Future.delayed(Duration(seconds: delayDuration));
       });
+
+      test('SUP_02_06', ()async { 
+        await Future.delayed(Duration(seconds: delayDuration));
+        await driver.tap(emailField);
+        await driver.enterText('');
+        await Future.delayed(Duration(seconds: delayDuration));
+        
+        await driver.tap(passField);
+        await driver.enterText('');
+        await Future.delayed(Duration(seconds: delayDuration));
+
+        await driver.tap(confirmpassField);
+        await driver.enterText('');
+        await Future.delayed(Duration(seconds: delayDuration));
+        await driver.tap(btnRegister);
+
+        expect(await driver.getText(error),"Passwords don't match");
+        expect(await driver.getText(error), "Please Enter your email");
+        expect(await driver.getText(error), "Please Enter your password");
+        await Future.delayed(Duration(seconds: delayDuration));
+      });
+
+
 
 
     });
