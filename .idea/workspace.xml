@@ -20,8 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59b6fa12-768d-43c5-ae51-2c0415f6e9c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test_driver/test_screens/cp_test.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/complete_profile/complete_profile_form.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/complete_profile/complete_profile_form.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/sign_in/sign_in_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/sign_in/sign_in_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_driver/test_screens/cp_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test_driver/test_screens/cp_test.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_driver/test_screens/sup_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test_driver/test_screens/sup_test.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,5 +141,9 @@
       <screen x="1366" y="70" width="1360" height="768" />
     </state>
     <state x="2105" y="97" width="621" height="741" key="find.popup/35.27.1331.741/1366.70.1360.768@1366.70.1360.768" timestamp="1613560082966" />
+    <state x="572" y="44" width="840" height="1034" key="search.everywhere.popup" timestamp="1614173813440">
+      <screen x="67" y="34" width="1853" height="1046" />
+    </state>
+    <state x="572" y="44" width="840" height="1034" key="search.everywhere.popup/67.34.1853.1046@67.34.1853.1046" timestamp="1614173813440" />
   </component>
 </project>

@@ -10,7 +10,6 @@ void supTest(){
       final SerializableFinder confirmpassField = find.byValueKey('inpRegPass2');
       final SerializableFinder btnRegister = find.byValueKey('btnRegister');
       final SerializableFinder txtCompleteProfile = find.byValueKey('txtCompleteP');
-     // final SerializableFinder error = find.byValueKey('errorSignUp');
       
       String testEmail = 'tsahu08@gmail.com';
       String testInvalidEmail = 'test@mail';
@@ -315,6 +314,24 @@ void supTest(){
         await Future.delayed(Duration(seconds: delayDuration));
       },timeout: Timeout.none);
 
+      test('SUP_02_01', ()async {
+        await Future.delayed(Duration(seconds: delayDuration));
+
+        await driver.tap(emailField);
+        await driver.enterText(testEmail);
+        await Future.delayed(Duration(seconds: delayDuration));
+
+        await driver.tap(passField);
+        await driver.enterText(testPass);
+        await Future.delayed(Duration(seconds: delayDuration));
+
+        await driver.tap(confirmpassField);
+        await driver.enterText(testPass);
+        await Future.delayed(Duration(seconds: delayDuration));
+        await driver.tap(btnRegister);
+        expect(await driver.getText(txtCompleteProfile), 'Complete Profile');
+        await Future.delayed(Duration(seconds: delayDuration));
+      },timeout: Timeout.none);
 
 
 
