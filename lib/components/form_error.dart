@@ -15,11 +15,11 @@ class FormError extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: List.generate(
-          errors.length, (index) => formErrorText(error: errors[index])),
+          errors.length, (index) => formErrorText(error: errors[index], index: index)),
     );
   }
 
-  Row formErrorText({String error}) {
+  Row formErrorText({String error,int index}) {
     return Row(
       children: [
         SvgPicture.asset(
@@ -30,7 +30,7 @@ class FormError extends StatelessWidget {
         SizedBox(
           width: getProportionateScreenWidth(10),
         ),
-        Text(error,key: Key('errorSignUp'),),
+        Text(error, key: Key('item_${index}_text'),),
       ],
     );
   }
