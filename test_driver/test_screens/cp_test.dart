@@ -70,7 +70,32 @@ void cpTest()
 
     test('CP_02_02', ()async{
       await Future.delayed(Duration(seconds: delayDuration));
-      //await driver.tap(find.pageBack());
+      await driver.tap(find.pageBack());
+      await Future.delayed(Duration(seconds: delayDuration));
+      await driver.tap(inpFName);
+      await driver.enterText(fName);
+      await Future.delayed(Duration(seconds: delayDuration));
+
+      await driver.tap(inpLName);
+      await driver.enterText(lName);
+      await Future.delayed(Duration(seconds: delayDuration));
+
+      await driver.tap(inpAddress);
+      await driver.enterText('');
+      await Future.delayed(Duration(seconds: delayDuration));
+
+      await driver.tap(inpPNumber);
+      await driver.enterText(pNumber);
+      await Future.delayed(Duration(seconds: delayDuration));
+      await driver.tap(btnCP);
+      // await Future.delayed(Duration(seconds: delayDuration));
+      expect(await driver.getText(find.byValueKey('item_0_text')), 'Please Enter your address');
+      await Future.delayed(Duration(seconds: delayDuration));
+    },timeout: Timeout.none);
+
+    test('CP_02_03', ()async{
+      await Future.delayed(Duration(seconds: delayDuration));
+      await driver.tap(find.pageBack());
       await Future.delayed(Duration(seconds: delayDuration));
       await driver.tap(inpFName);
       await driver.enterText(fName);
@@ -85,17 +110,44 @@ void cpTest()
       await Future.delayed(Duration(seconds: delayDuration));
 
       await driver.tap(inpPNumber);
+      await driver.enterText('');
+      await Future.delayed(Duration(seconds: delayDuration));
+      await driver.tap(btnCP);
+      // await Future.delayed(Duration(seconds: delayDuration));
+      expect(await driver.getText(find.byValueKey('item_0_text')),'Please Enter your phone number');
+      await Future.delayed(Duration(seconds: delayDuration));
+    },timeout: Timeout.none);
+
+
+    test('CP_02_04', ()async{
+      await Future.delayed(Duration(seconds: delayDuration));
+      await driver.tap(find.pageBack());
+      await Future.delayed(Duration(seconds: delayDuration));
+      await driver.tap(inpFName);
+      await driver.enterText(fName);
+      await Future.delayed(Duration(seconds: delayDuration));
+
+      await driver.tap(inpLName);
+      await driver.enterText('');
+      await Future.delayed(Duration(seconds: delayDuration));
+
+      await driver.tap(inpAddress);
+      await driver.enterText(address);
+      await Future.delayed(Duration(seconds: delayDuration));
+
+      await driver.tap(inpPNumber);
       await driver.enterText(pNumber);
       await Future.delayed(Duration(seconds: delayDuration));
       await driver.tap(btnCP);
       // await Future.delayed(Duration(seconds: delayDuration));
-      expect(await driver.getText(find.text('Welcome Back')), 'Welcome Back');
+      expect(await driver.getText(find.byValueKey('item_0_text')),"Registration Success" );
+      expect(await driver.getText(find.text('Welcome Back')),'Welcome Back');
       await Future.delayed(Duration(seconds: delayDuration));
     },timeout: Timeout.none);
 
 
 
 
-    });
+  });
   });
 }
