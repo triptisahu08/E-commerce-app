@@ -18,8 +18,7 @@ void supTest(){
       String testDiffPass = '00000000';
       String txtSignUpSUP_01_01 = "Register Account";
 
-
-       int delayDuration = 3; 
+      int delayDuration = 3; 
       FlutterDriver driver;
 
       setUpAll(() async {
@@ -82,6 +81,28 @@ void supTest(){
         expect(await driver.getText(error), "Passwords don't match");
         await Future.delayed(Duration(seconds: delayDuration));
       });
+
+      test('SUP_02_03', ()async { 
+        await Future.delayed(Duration(seconds: delayDuration));
+        //await driver.tap(find.pageBack());
+        await Future.delayed(Duration(seconds: delayDuration));
+        await driver.tap(emailField);
+        await driver.enterText(testEmail);
+        await Future.delayed(Duration(seconds: delayDuration));
+        
+        await driver.tap(passField);
+        await driver.enterText(testPass);
+        await Future.delayed(Duration(seconds: delayDuration));
+
+        await driver.tap(confirmpassField);
+        await driver.enterText(testDiffPass);
+        await Future.delayed(Duration(seconds: delayDuration));
+        await driver.tap(btnRegister);
+
+        expect(await driver.getText(error), "Passwords don't match");
+        await Future.delayed(Duration(seconds: delayDuration));
+      });
+
 
     });
     });
